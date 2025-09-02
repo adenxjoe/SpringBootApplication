@@ -59,7 +59,6 @@ public class StudentController {
     public ResponseEntity<Student> updateUser(@PathVariable("id") int studId,@RequestBody Student stud)
     {
         Student updatedStudent=studentService.updateStudentById(studId, stud);
-        System.out.println("Hiii");
         return new ResponseEntity<>(updatedStudent, HttpStatus.OK);
 
     }
