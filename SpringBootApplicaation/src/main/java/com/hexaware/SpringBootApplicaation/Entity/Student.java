@@ -59,13 +59,13 @@ public class Student {
 //        this.department = department;
 //    }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", studentName='" + studentName + '\'' +
-                ", age=" + age +
-                ", department=" + department +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "id=" + id +
+//                ", studentName='" + studentName + '\'' +
+//                ", age=" + age +
+//                ", department=" + department +
+//                '}';
+//    }
 }
